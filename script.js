@@ -189,7 +189,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const monthPicker = document.querySelector('#month-picker');
     monthPicker.addEventListener('click', function () {
         // Clear localStorage when changing the month
-        localStorage.removeItem('markedDates');
+        // localStorage.removeItem('markedDates');
 
         // Re-render the calendar after changing the month
         renderCalendar();
